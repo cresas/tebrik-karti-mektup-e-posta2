@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">,
+      <meta name="author" content="Cresas - Emre">
     <title>Tebrik Kartı - Mektup - E-posta ✉︎</title>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Kalam:wght@300;400;700&family=Comic+Neue:wght@300;400;700&family=Open+Sans:wght@400;600;700&display=swap&subset=latin,latin-ext" rel="stylesheet">
     <style>
@@ -32,31 +33,31 @@
         /* Navigation Icons */
         .nav-icons {
             position: absolute;
-            top: 45px;
-            right: 45px;
+            top: 30px;
+            right: 30px;
             display: flex;
-            gap: 23px;
+            gap: 15px;
             z-index: 1000;
         }
 
         .nav-icon {
-            width: 75px;
-            height: 75px;
+            width: 50px;
+            height: 50px;
             background: rgba(255, 255, 255, 0.9);
-            border: 5px solid #8e7cc3;
-            border-radius: 18px;
+            border: 3px solid #8e7cc3;
+            border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 36px;
+            font-size: 24px;
             cursor: pointer;
             transition: all 0.3s ease;
-            box-shadow: 0 6px 23px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
         .nav-icon:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 9px 30px rgba(0, 0, 0, 0.15);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
         }
 
         .music-icon { color: #8e7cc3; }
@@ -69,15 +70,15 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 30px;
+            padding: 20px;
             position: relative;
         }
 
         /* Page Title */
         .page-title {
             text-align: center;
-            margin-bottom: 75px;
-            font-size: 36px;
+            margin-bottom: 50px;
+            font-size: 24px;
             color: #5d4e75;
             font-family: 'Comic Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
             font-weight: 600;
@@ -89,8 +90,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 60px;
-            margin-bottom: 60px;
+            gap: 40px;
+            margin-bottom: 40px;
             flex-wrap: wrap;
         }
 
@@ -103,11 +104,11 @@
         }
 
         .selection-card:hover {
-            transform: translateY(-8px) rotate(2deg);
+            transform: translateY(-5px) rotate(2deg);
         }
 
         /* Sticky Notes */
-        .sticky-note {
+         .sticky-note {
             width: 270px;
             height: 270px;
             position: relative;
@@ -139,11 +140,11 @@
         .sticky-note::before {
             content: '';
             position: absolute;
-            top: -18px;
-            left: 30px;
-            width: 90px;
-            height: 30px;
-            border-radius: 5px;
+            top: -12px;
+            left: 20px;
+            width: 60px;
+            height: 20px;
+            border-radius: 3px;
             opacity: 0.8;
             z-index: 1;
         }
@@ -151,11 +152,11 @@
         .sticky-note::after {
             content: '';
             position: absolute;
-            top: -18px;
-            right: 30px;
-            width: 90px;
-            height: 30px;
-            border-radius: 5px;
+            top: -12px;
+            right: 20px;
+            width: 60px;
+            height: 20px;
+            border-radius: 3px;
             opacity: 0.8;
             z-index: 1;
         }
@@ -197,36 +198,36 @@
         .content-area {
             display: none;
             width: 100%;
-            max-width: 1800px;
+            max-width: 1200px;
             margin: 0 auto;
             position: relative;
         }
 
         .content-area.active {
             display: flex;
-            gap: 60px;
+            gap: 40px;
             align-items: flex-start;
         }
 
         /* Main Writing Area */
         .writing-area {
             flex: 1;
-            max-width: 1050px;
+            max-width: 700px;
         }
 
         /* Letter Paper Style */
         .letter-paper {
             background: #fefefe;
-            border-radius: 23px;
-            padding: 60px;
-            box-shadow: 0 12px 45px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
             position: relative;
-            min-height: 750px;
+            min-height: 500px;
             background-image: 
-                linear-gradient(to bottom, transparent 59px, #e8e8e8 60px, #e8e8e8 62px, transparent 63px),
-                linear-gradient(to right, #ff9aa2 0px, #ff9aa2 3px, transparent 5px);
-            background-size: 100% 63px, 90px 100%;
-            background-position: 0 0, 90px 0;
+                linear-gradient(to bottom, transparent 39px, #e8e8e8 40px, #e8e8e8 41px, transparent 42px),
+                linear-gradient(to right, #ff9aa2 0px, #ff9aa2 2px, transparent 3px);
+            background-size: 100% 42px, 60px 100%;
+            background-position: 0 0, 60px 0;
             background-repeat: repeat, repeat-y;
             overflow-x: hidden;
         }
@@ -235,34 +236,34 @@
         .letter-paper::before {
             content: '🌸';
             position: absolute;
-            top: 23px;
-            left: 23px;
-            font-size: 36px;
+            top: 15px;
+            left: 15px;
+            font-size: 24px;
             opacity: 0.6;
         }
 
         .letter-paper::after {
             content: '🍀✨🌺';
             position: absolute;
-            bottom: 23px;
-            right: 23px;
-            font-size: 30px;
+            bottom: 15px;
+            right: 15px;
+            font-size: 20px;
             opacity: 0.6;
-            letter-spacing: 15px;
+            letter-spacing: 10px;
         }
 
         /* Writing Areas */
         .letter-textarea {
             width: 100%;
-            height: 600px;
+            height: 400px;
             border: none;
             background: transparent;
             font-family: 'Kalam', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-            font-size: 27px;
+            font-size: 18px;
             font-weight: 400;
             color: #2c3e50;
-            line-height: 63px;
-            padding: 0 30px 0 120px;
+            line-height: 42px;
+            padding: 0 20px 0 80px;
             resize: none;
             outline: none;
             box-sizing: border-box;
@@ -278,18 +279,20 @@
         .tebrik-container {
             text-align: center;
             background: linear-gradient(135deg, #fff8f0, #fef7f0);
-            border: 12px solid #8e7cc3;
-            border-radius: 30px;
-            padding: 75px;
-            box-shadow: 0 15px 60px rgba(0, 0, 0, 0.15);
+            border: 8px solid #8e7cc3;
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
             position: relative;
         }
 
+
+
         .tebrik-title {
             font-family: 'Dancing Script', Georgia, 'Times New Roman', serif;
-            font-size: 72px;
+            font-size: 48px;
             color: #8e7cc3;
-            margin-bottom: 45px;
+            margin-bottom: 30px;
             font-weight: 400;
             font-feature-settings: "kern" 1;
         }
@@ -298,10 +301,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 23px;
-            margin-bottom: 45px;
+            gap: 15px;
+            margin-bottom: 30px;
             font-family: 'Comic Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-            font-size: 30px;
+            font-size: 20px;
             font-weight: 400;
             color: #5d4e75;
         }
@@ -309,13 +312,13 @@
         .name-input {
             background: transparent;
             border: none;
-            border-bottom: 5px solid #8e7cc3;
+            border-bottom: 3px solid #8e7cc3;
             font-family: 'Dancing Script', Georgia, 'Times New Roman', serif;
-            font-size: 48px;
+            font-size: 32px;
             font-weight: 400;
             color: #2c3e50;
-            padding: 15px;
-            min-width: 300px;
+            padding: 10px;
+            min-width: 200px;
             text-align: center;
             outline: none;
             font-feature-settings: "kern" 1;
@@ -323,50 +326,50 @@
 
         .message-textarea {
             width: 100%;
-            height: 225px;
-            border: 3px dashed #8e7cc3;
-            border-radius: 15px;
+            height: 150px;
+            border: 2px dashed #8e7cc3;
+            border-radius: 10px;
             background: rgba(255, 255, 255, 0.5);
             font-family: 'Comic Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-            font-size: 27px;
+            font-size: 18px;
             font-weight: 400;
             color: #2c3e50;
-            padding: 30px;
+            padding: 20px;
             resize: none;
             outline: none;
-            margin-bottom: 45px;
+            margin-bottom: 30px;
             font-feature-settings: "kern" 1;
         }
 
         /* Email Styles */
         .email-container {
             background: #f8f9fa;
-            border-radius: 23px;
-            padding: 45px;
-            box-shadow: 0 12px 45px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
         }
 
         .email-field {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
 
         .email-label {
             display: block;
             font-family: 'Comic Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-            font-size: 24px;
+            font-size: 16px;
             font-weight: 400;
             color: #5d4e75;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
             font-feature-settings: "kern" 1;
         }
 
         .email-input {
             width: 100%;
-            padding: 18px 23px;
-            border: 3px solid #e0e0e0;
-            border-radius: 12px;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
             font-family: 'Comic Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-            font-size: 24px;
+            font-size: 16px;
             font-weight: 400;
             outline: none;
             transition: border-color 0.3s ease;
@@ -379,12 +382,12 @@
 
         .email-textarea {
             width: 100%;
-            height: 300px;
-            padding: 23px;
-            border: 3px solid #e0e0e0;
-            border-radius: 12px;
+            height: 200px;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
             font-family: 'Comic Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-            font-size: 24px;
+            font-size: 16px;
             font-weight: 400;
             resize: none;
             outline: none;
@@ -398,24 +401,24 @@
 
         /* Right Side Panel */
         .side-panel {
-            width: 420px;
+            width: 280px;
             display: flex;
             flex-direction: column;
-            gap: 45px;
+            gap: 30px;
             align-items: center;
         }
 
         /* Instruction Sticky Note */
         .instruction-note {
-            width: 360px;
-            padding: 38px;
+            width: 240px;
+            padding: 25px;
             background: #d4f5a9;
-            border-radius: 0 0 12px 12px;
-            box-shadow: 0 9px 30px rgba(0, 0, 0, 0.15);
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
             position: relative;
             transform: rotate(-1deg);
             font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-            font-size: 24px;
+            font-size: 16px;
             font-weight: 700;
             color: #2c3e50;
             line-height: 1.5;
@@ -427,12 +430,12 @@
         .instruction-note::before {
             content: '';
             position: absolute;
-            top: -18px;
-            left: 38px;
-            width: 75px;
-            height: 30px;
+            top: -12px;
+            left: 25px;
+            width: 50px;
+            height: 20px;
             background: #4ecdc4;
-            border-radius: 5px;
+            border-radius: 3px;
             opacity: 0.9;
             z-index: 1;
         }
@@ -440,12 +443,12 @@
         .instruction-note::after {
             content: '';
             position: absolute;
-            top: -18px;
-            right: 38px;
-            width: 75px;
-            height: 30px;
+            top: -12px;
+            right: 25px;
+            width: 50px;
+            height: 20px;
             background: #4ecdc4;
-            border-radius: 5px;
+            border-radius: 3px;
             opacity: 0.9;
             z-index: 1;
         }
@@ -454,57 +457,57 @@
         .download-btn {
             background: linear-gradient(135deg, #ff9aa2, #ffa8b6);
             border: none;
-            border-radius: 23px;
-            padding: 23px 45px;
+            border-radius: 15px;
+            padding: 15px 30px;
             font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-            font-size: 27px;
+            font-size: 18px;
             font-weight: 700;
             color: white;
             cursor: pointer;
-            box-shadow: 0 9px 30px rgba(255, 154, 162, 0.4);
+            box-shadow: 0 6px 20px rgba(255, 154, 162, 0.4);
             transition: all 0.3s ease;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
             font-feature-settings: "kern" 1;
         }
 
         .download-btn:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 38px rgba(255, 154, 162, 0.6);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 154, 162, 0.6);
         }
 
         /* Back Button */
         .back-btn {
             position: absolute;
-            bottom: 105px;
-            left: 45px;
+            bottom: 70px;
+            left: 30px;
             background: linear-gradient(135deg, #ffa8b6, #ff9aa2);
             border: none;
             border-radius: 50%;
-            width: 90px;
-            height: 90px;
-            font-size: 36px;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
             color: white;
             cursor: pointer;
-            box-shadow: 0 9px 30px rgba(255, 168, 182, 0.4);
+            box-shadow: 0 6px 20px rgba(255, 168, 182, 0.4);
             transition: all 0.3s ease;
             display: none;
         }
 
         .back-btn:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 38px rgba(255, 168, 182, 0.6);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 168, 182, 0.6);
         }
 
         /* Additional Info Text */
         .info-text {
             font-family: 'Comic Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-            font-size: 24px;
+            font-size: 16px;
             font-weight: 400;
             color: #7f8c8d;
             text-align: center;
-            max-width: 900px;
-            margin: 45px auto;
+            max-width: 600px;
+            margin: 30px auto;
             line-height: 1.6;
             font-feature-settings: "kern" 1;
         }
@@ -513,40 +516,35 @@
         .send-btn {
             background: linear-gradient(135deg, #96ceb4, #85c1a5);
             border: none;
-            border-radius: 23px;
-            padding: 23px 45px;
+            border-radius: 15px;
+            padding: 15px 30px;
             font-family: 'Comic Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-            font-size: 27px;
+            font-size: 18px;
             font-weight: 400;
             color: white;
             cursor: pointer;
-            box-shadow: 0 9px 30px rgba(150, 206, 180, 0.4);
+            box-shadow: 0 6px 20px rgba(150, 206, 180, 0.4);
             transition: all 0.3s ease;
-            margin-right: 23px;
+            margin-right: 15px;
             font-feature-settings: "kern" 1;
         }
 
         .send-btn:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 38px rgba(150, 206, 180, 0.6);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(150, 206, 180, 0.6);
         }
 
         .button-container {
             display: flex;
             justify-content: center;
-            gap: 23px;
-            margin-top: 30px;
+            gap: 15px;
+            margin-top: 20px;
         }
 
         /* Responsive Design */
-        @media (max-width: 1152px) {
+        @media (max-width: 768px) {
             .container {
                 padding: 15px;
-            }
-
-            .page-title {
-                font-size: 28px;
-                margin-bottom: 40px;
             }
 
             .content-area.active {
@@ -583,117 +581,30 @@
                 font-size: 18px;
             }
 
-            .sticky-note::before {
-                top: -12px;
-                left: 20px;
-                width: 50px;
-                height: 18px;
-            }
-
-            .sticky-note::after {
-                top: -12px;
-                right: 20px;
-                width: 50px;
-                height: 18px;
-            }
-
-            /* Content sayfaları için mobil düzenlemeler */
             .letter-paper {
                 padding: 25px;
                 min-height: 400px;
-                background-image: 
-                    linear-gradient(to bottom, transparent 39px, #e8e8e8 40px, #e8e8e8 41px, transparent 42px),
-                    linear-gradient(to right, #ff9aa2 0px, #ff9aa2 2px, transparent 3px);
-                background-size: 100% 42px, 60px 100%;
                 background-position: 0 0, 40px 0;
-                background-repeat: repeat, repeat-y;
-            }
-
-            .letter-paper::before {
-                content: '🌸';
-                font-size: 20px;
-                top: 15px;
-                left: 15px;
-            }
-
-            .letter-paper::after {
-                content: '🍀✨🌺';
-                font-size: 16px;
-                bottom: 15px;
-                right: 15px;
-                letter-spacing: 8px;
             }
 
             .letter-textarea {
                 height: 300px;
                 font-size: 16px;
-                line-height: 42px;
                 padding: 0 15px 0 50px;
                 box-sizing: border-box;
             }
 
             .tebrik-container {
                 padding: 30px 20px;
-                border-width: 6px;
             }
 
             .tebrik-title {
                 font-size: 36px;
-                margin-bottom: 25px;
-            }
-
-            .name-section {
-                font-size: 18px;
-                gap: 15px;
-                margin-bottom: 25px;
             }
 
             .name-input {
                 font-size: 24px;
                 min-width: 150px;
-                border-bottom-width: 3px;
-                padding: 8px;
-            }
-
-            .message-textarea {
-                height: 120px;
-                font-size: 16px;
-                padding: 15px;
-                margin-bottom: 25px;
-                border-width: 2px;
-            }
-
-            .email-container {
-                padding: 30px;
-            }
-
-            .email-label {
-                font-size: 16px;
-                margin-bottom: 8px;
-            }
-
-            .email-input {
-                padding: 12px 15px;
-                font-size: 16px;
-                border-width: 2px;
-            }
-
-            .email-textarea {
-                height: 200px;
-                padding: 15px;
-                font-size: 16px;
-                border-width: 2px;
-            }
-
-            .send-btn {
-                padding: 15px 30px;
-                font-size: 18px;
-                margin-right: 15px;
-            }
-
-            .download-btn {
-                padding: 15px 30px;
-                font-size: 18px;
             }
 
             .instruction-note {
@@ -703,31 +614,12 @@
                 font-size: 15px;
             }
 
-            .instruction-note::before {
-                top: -12px;
-                left: 25px;
-                width: 40px;
-                height: 18px;
-            }
-
-            .instruction-note::after {
-                top: -12px;
-                right: 25px;
-                width: 40px;
-                height: 18px;
-            }
-
             .back-btn {
                 bottom: 60px;
                 left: 20px;
                 width: 50px;
                 height: 50px;
                 font-size: 20px;
-            }
-
-            .button-container {
-                gap: 15px;
-                margin-top: 15px;
             }
         }
 
@@ -750,7 +642,7 @@
 
             /* Sayfa ayarları */
             @page {
-                margin: 23mm;
+                margin: 15mm;
             }
 
             body {
@@ -798,42 +690,44 @@
             /* Tebrik kartı renklerini print'te koru */
             .tebrik-container {
                 background: linear-gradient(135deg, #fff8f0, #fef7f0) !important;
-                border: 12px solid #8e7cc3 !important;
+                border: 8px solid #8e7cc3 !important;
                 -webkit-print-color-adjust: exact !important;
                 color-adjust: exact !important;
             }
 
             .tebrik-container::before {
+             
                 position: absolute !important;
-                top: 30px !important;
-                left: 45px !important;
-                font-size: 42px !important;
+                top: 20px !important;
+                left: 30px !important;
+                font-size: 28px !important;
             }
 
             .tebrik-container::after {
+               
                 position: absolute !important;
-                bottom: 30px !important;
-                right: 45px !important;
-                font-size: 30px !important;
-                letter-spacing: 12px !important;
+                bottom: 20px !important;
+                right: 30px !important;
+                font-size: 20px !important;
+                letter-spacing: 8px !important;
             }
 
             /* Email container renklerini print'te koru */
             .email-container {
-                background: #f8f9fa !important;
+                background: #f8f9f !important;
+               
                 -webkit-print-color-adjust: exact !important;
                 color-adjust: exact !important;
-                box-shadow: 0 12px 45px rgba(0, 0, 0, 0.1);
+				box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
             }
 
             .email-container::before {
+               
                 position: absolute !important;
-                top: 23px !important;
-                right: 30px !important;
-                font-size: 42px !important;
+                top: 15px !important;
+                right: 20px !important;
+                font-size: 28px !important;
             }
-
-            .letter-textarea {
                 font-size: 16px !important;
                 line-height: 42px !important;
                 padding: 0 20px 0 80px !important;
@@ -850,8 +744,26 @@
                 max-width: none !important;
             }
 
+            /* Decorative elements for print */
+            .letter-paper::before {
+                content: '🌸' !important;
+                position: absolute !important;
+                top: 15px !important;
+                left: 15px !important;
+                font-size: 20px !important;
+            }
+
+            .letter-paper::after {
+                content: '🍀✨🌺' !important;
+                position: absolute !important;
+                bottom: 15px !important;
+                right: 15px !important;
+                font-size: 18px !important;
+                letter-spacing: 10px !important;
+            }
+
             @page {
-                margin: 1.5cm;
+                margin: 1cm;
                 size: A4;
             }
         }
@@ -1020,12 +932,6 @@
                 // Show success message with animation
                 const successMsg = document.createElement('div');
                 successMsg.innerHTML = '✅ E-posta başarıyla gönderildi!';
-                
-                // Responsive font size
-                const isMobile = window.innerWidth <= 1152;
-                const fontSize = isMobile ? '18px' : '30px';
-                const padding = isMobile ? '20px 30px' : '30px 60px';
-                
                 successMsg.style.cssText = `
                     position: fixed;
                     top: 50%;
@@ -1033,12 +939,12 @@
                     transform: translate(-50%, -50%);
                     background: linear-gradient(135deg, #96ceb4, #85c1a5);
                     color: white;
-                    padding: ${padding};
-                    border-radius: 23px;
+                    padding: 20px 40px;
+                    border-radius: 15px;
                     font-family: 'Comic Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-                    font-size: ${fontSize};
+                    font-size: 20px;
                     font-weight: 400;
-                    box-shadow: 0 15px 45px rgba(0,0,0,0.3);
+                    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
                     z-index: 10000;
                     animation: fadeInOut 3s ease-in-out;
                     -webkit-font-smoothing: antialiased;
